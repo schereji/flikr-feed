@@ -1,0 +1,15 @@
+{
+  "name": "flickr-feed",
+  "version": "1.0.0",
+  "description": "Flickr Feed Project with Vanilla JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start -s -f ./index.js ./styles.css src --no-ui --no-notify",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.24.6"
+  }
+}
